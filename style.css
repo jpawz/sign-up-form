@@ -35,6 +35,17 @@
 .right-section > .middle {
   flex: 1;
   background-color: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+}
+
+.inputs > div > div {
+    display: flex;
+    flex-direction: column;
 }
 
 .right-section > .bottom {
