@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.left-section {
+  flex: 1;
+  background-color: aquamarine;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  top: 30vh;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+}
+
+.right-section {
+  flex: 2;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section > .top {
+  flex: 1.1;
+}
+
+.right-section > .middle {
+  flex: 1;
+  background-color: beige;
+}
+
+.right-section > .bottom {
+  flex: 1;
+}
