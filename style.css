@@ -11,6 +11,10 @@
 .left-section {
   flex: 1;
   background-color: aquamarine;
+  background-image: url(martin-baron-HjGEuDtc_I4-unsplash.jpg);
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
