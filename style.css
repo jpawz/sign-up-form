@@ -97,4 +97,9 @@
   margin-bottom: 20px;
   width: 200px;
   height: 40px;
+  background-color: darkgreen;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
