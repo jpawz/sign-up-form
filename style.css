@@ -1,3 +1,7 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
   display: flex;
   height: 100vh;
@@ -28,8 +32,12 @@
   flex-direction: column;
 }
 
+.right-section > div {
+  padding-left: 30px;
+}
+
 .right-section > .top {
-  flex: 1.1;
+  flex: 1;
 }
 
 .right-section > .middle {
@@ -41,6 +49,14 @@
 
 .inputs {
     display: flex;
+    gap: 30px;
+    flex: 1;
+}
+
+.inputs > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .inputs > div > div {
