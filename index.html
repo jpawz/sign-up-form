@@ -21,7 +21,7 @@
             </div>
             <div class="middle">
                 <h1>Let's do this!</h1>
-                <div class="inputs">
+                <form action="/" method="post" id="sign-up-form" class="inputs">
                     <div class="left-inputs">
                         <div>
                             <label for="first-name">First name</label>
@@ -50,10 +50,10 @@
                             <input type="password" name="confirm" id="confirm">
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="bottom">
-                <button>Create Account</button>
+                <button type="submit" form="sign-up-form">Create Account</button>
                 <span>Already have an Account? Log in</span>
             </div>
         </div>
