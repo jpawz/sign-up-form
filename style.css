@@ -10,7 +10,6 @@
 
 .left-section {
   flex: 1;
-  background-color: aquamarine;
   background-image: url(martin-baron-HjGEuDtc_I4-unsplash.jpg);
   background-color: green;
   background-repeat: no-repeat;
@@ -31,7 +30,7 @@
 
 .right-section {
   flex: 2;
-  background-color: antiquewhite;
+  background-color: beige;
   display: flex;
   flex-direction: column;
 }
@@ -52,7 +51,7 @@
 
 .right-section > .middle {
   flex: 1;
-  background-color: beige;
+  background-color: cornsilk;
   display: flex;
   flex-direction: column;
 }
