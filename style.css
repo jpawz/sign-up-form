@@ -65,5 +65,14 @@
 }
 
 .right-section > .bottom {
+  display: flex;
+  flex-direction: column;
   flex: 1;
+}
+
+#submit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 40px;
 }
