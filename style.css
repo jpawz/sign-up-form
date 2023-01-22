@@ -74,6 +74,8 @@ input:focus {
 
 .description {
   margin-bottom: 30px;
+  max-width: 500px;
+  font-size: 1.5rem;
 }
 
 .right-section > .middle {
