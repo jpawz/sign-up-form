@@ -11,6 +11,11 @@ input {
   height: 1.5rem;
 }
 
+input:focus {
+  border: 2px solid red;
+  outline: none;
+}
+
 .container {
   display: flex;
   height: 100vh;
