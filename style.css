@@ -108,6 +108,12 @@ input:focus {
   flex: 1;
 }
 
+.bottom a {
+  text-decoration: none;
+  color: darkgreen;
+  font-weight: 700;
+}
+
 #submit {
   margin-top: 20px;
   margin-bottom: 20px;
